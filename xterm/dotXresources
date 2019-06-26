@@ -1,0 +1,22 @@
+XTerm*utmpInhibit:      false
+XTerm*cursorBlink:      true
+!XTerm*reverseVideo:     true
+XTerm*utf8:             1
+XTerm*scrollBar:        false
+XTerm*backarrowKeyIsErase:      false
+XTerm*jumpScroll:       false
+XTerm*curses:           true
+! XTerm*locale:           ISO8859-2
+XTerm*background:       black
+XTerm*foreground:       gray
+XTerm*loginShell:       true
+XTerm*multiScroll:      true
+XTerm*faceName:         DejaVu Sans Mono-9:minspace=true:lang=pl:spacing=100:hinting=false
+XTerm*saveLines:        3000
+XTerm*metaSendsEscape:  true
+*VT100.Translations: #override \
+              <Key>BackSpace: string(0x7F)\n\
+              <Key>Delete:    string("\033[3~")\n\
+              <Key>Home:      string("\033[1~")\n\
+              <Key>End:       string("\033[4~")
+*ttyModes: erase ^? 
